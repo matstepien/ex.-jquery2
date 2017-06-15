@@ -1,0 +1,44 @@
+.carousel-container {
+	text-align: center;
+	display: block;
+}
+.img-carousel {
+	height: 600px;
+	width: 800px;
+	object-fit: cover;
+}
+#carousel {
+	height: 600px;
+	width: 800px;
+	border: 1px solid grey;
+	overflow: hidden;
+	box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+}
+div {
+	display: inline-block;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	width: 4000px;
+	list-style-type: none;
+}
+li {
+	width: 800px;
+	float: left;
+	list-style-type: none;
+}
+i.fa {
+	font-size: 100px;
+	position: relative;
+	top: -280px;
+	color: rgb(52, 73, 94);	
+}
+.jcarousel-pagination {
+	display: block;
+
+}
+.jcarousel-pagination>a>i.fa {
+		font-size: 12px;
+		top: -10px;
+}
