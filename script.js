@@ -18,4 +18,11 @@ $(function(){
 		carouselList.css({marginLeft:-800});
 		carouselList.animate({'marginLeft': 0 }, 800);
 	})
+/*
+	$('#page1').click(function() {
+		var page1 = ('li[data-gallery="1"]');
+		page1
+	})
+*/
 });
+
